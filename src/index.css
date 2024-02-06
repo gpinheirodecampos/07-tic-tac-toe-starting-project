@@ -36,14 +36,14 @@ header {
 header img {
 	width: 15rem;
 	object-fit: contain;
-	margin: 3rem auto 1rem auto;
+
 	filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
 }
 
 h1 {
 	font-family: "Quicksand", sans-serif;
 	font-size: 3rem;
-	margin: 0 auto 3rem auto;
+	margin: auto;
 	color: #3f3f3f;
 }
 
@@ -75,13 +75,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-	border-color: #5aa3f6;
+	border-color: #5ae4f6;
 	animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-	color: #5aa3f6;
+	color: #5ae4f6;
 }
 
 #players button {
